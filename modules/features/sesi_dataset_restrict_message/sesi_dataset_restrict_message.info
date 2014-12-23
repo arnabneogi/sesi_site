@@ -1,0 +1,10 @@
+name = Sesi Dataset Restrict Message
+description = Sesi Dataset Restrict Message Features
+core = 7.x
+package = SESI
+version = 7.x-1.0-beta1
+project = sesi_dataset_restrict_message
+features[fe_block_boxes][] = sesi_dataset_message
+features[fe_block_settings][] = block-sesi_dataset_message
+features[features_api][] = api:2
+features_exclude[dependencies][fe_block] = fe_block
